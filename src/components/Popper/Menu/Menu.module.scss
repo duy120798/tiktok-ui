@@ -1,0 +1,15 @@
+.menu-list {
+  width: 224px;
+
+  .menu-item {
+    margin-left: 0 !important;
+    width: 100%;
+    text-align: left;
+    border-radius: 0;
+    font-weight: 500;
+    color: var(--text-color);
+  }
+}
+.menu-popper {
+  padding-bottom: 8px;
+}
