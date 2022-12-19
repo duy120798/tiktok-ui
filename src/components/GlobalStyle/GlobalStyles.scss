@@ -8,6 +8,7 @@
 
   --default-layout-header-height: 60px;
   --default-layout-width: 1150px;
+  --default-layout-horizontal-space: 24px;
 }
 * {
   margin: 0;
@@ -18,7 +19,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: ibm-plex-sans, sans-serif;
+  font-family: "ibm-plex-sans", sans-serif;
   font-size: 1.6rem;
   line-height: 1.5rem;
   text-rendering: optimizeLegibility;
@@ -32,4 +33,21 @@ input,
 a[href] {
   color: var(--text-color);
   text-decoration: none;
+}
+
+// custom tippy
+body {
+  .tippy-box {
+    background-color: rgba(84, 84, 84.52);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+  .tippy-content {
+    padding: 8px 9px;
+  }
+  .tippy-arrow {
+    color: rgba(84, 84, 84.52);
+  }
 }
