@@ -13,10 +13,18 @@
     &.seperate {
       border-top: 1px solid rgba(22, 24, 35, 0.12);
     }
+    &:hover {
+      background-color: rgba(24, 35, 80, 0.015);
+    }
   }
 }
 .menu-popper {
   padding-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.menu-body {
+  overflow-y: auto;
 }
 
 // header
@@ -25,6 +33,7 @@
   position: relative;
   height: 50px;
   margin-top: -8px;
+  flex-shrink: 0;
 }
 .back-btn {
   width: 50px;
